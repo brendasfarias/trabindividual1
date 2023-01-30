@@ -26,3 +26,4 @@ A base de dados tem uma indexação por datas, facilitando bastante o processo d
 *   Close - Valor de fechamento da ação
 *   Adj Close - Fechamento ajustado, após distribuição de dividendos e outras operações
 *   Volume - Quantas ações foram negociadas (Tanto compras quanto vendas)
+OBS.: Os valores das ações já estão em BRL
