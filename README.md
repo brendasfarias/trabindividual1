@@ -17,11 +17,17 @@ Foram escolhidas ações das seguintes empresas:
 Os dados foram importados com uma biblioteca que se conecta à API do Yahoo, chamada Yahoo Finance. A base de dados tem uma indexação por datas, facilitando bastante o processo de geração de gráficos, e possui as seguintes colunas:
 
 **Open** - Preço de abertura
+
 **High** - Maior valor alcançado na data
-Low - Menor valor alcançado na data
-Close - Valor de fechamento da ação
-Adj Close - Fechamento ajustado, após distribuição de dividendos e outras operações
-Volume - Quantas ações foram negociadas (Tanto compras quanto vendas)
+
+**Low** - Menor valor alcançado na data
+
+**Close** - Valor de fechamento da ação
+
+**Adj Close** - Fechamento ajustado, após distribuição de dividendos e outras operações
+
+**Volume**  - Quantas ações foram negociadas (Tanto compras quanto vendas)
+
 A biblioteca seaborn é usada para visualização de dados em Python, especialmente gráficos estatísticos.
 
 A biblioteca smt (Sensitivity Model Toolbox) é uma coleção de ferramentas de análise de sensibilidade e calibração de modelos.
