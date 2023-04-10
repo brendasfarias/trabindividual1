@@ -1,10 +1,12 @@
 # Projeto de previsão de ações
 
-#### Esse trabalho tem como intuito fazer um modelo preditivo do preço de determinadas ações que eu acompanho.
+Objetivo geral: Esse trabalho tem como intuito fazer um modelo preditivo do preço de determinadas ações.
+Relevância: Existem várias aplicações relevantes para criar um modelo preditivo para o preço das ações, incluindo decisões de investimento, gerenciamento de riscos, otimização de portfólio e estratégias de negociação.
+- Os investidores podem usar modelos preditivos para tomar decisões informadas sobre compra e venda de ações
+- Investidores e gestores podem utilizar esses modelos para gerenciamento de risco, identificando áreas de alto risco e prever a probabilidade de um preço de ação subir ou descer. Com essas informações, os investidores podem tomar decisões sobre diversificação ou proteção.
+- Agentes ativos no mercado financeiro podem usar os modelos para desenvolver estratégias de negociação
 
 Foram escolhidas ações das seguintes empresas:
-
-
 
 *   [Magalu](https://github.com/brendasfarias/trabindividual1/blob/main/images/MGLU3.png) (MGLU3)
 *   [Banco do Brasil](https://github.com/brendasfarias/trabindividual1/blob/main/images/BBAS3.png) (BBAS3)
@@ -12,20 +14,18 @@ Foram escolhidas ações das seguintes empresas:
 *   [Itaú](https://github.com/brendasfarias/trabindividual1/blob/main/images/ITUB4.png) (ITUB4)
 *   [Americanas](https://github.com/brendasfarias/trabindividual1/blob/main/images/AMER3.png) (AMER3)
 
-A ideia é fazer uma análise exploratória utilizando a biblioteca Plotly, afim de simular um gráfico típico de plataformas de investimentos, o modelo de *candlesticks*
+Os dados foram importados com uma biblioteca que se conecta à API do Yahoo, chamada Yahoo Finance. A base de dados tem uma indexação por datas, facilitando bastante o processo de geração de gráficos, e possui as seguintes colunas:
 
-Os dados foram importados com uma biblioteca que se conecta à API do Yahoo, chamada *Yahoo Finance*
+**Open** - Preço de abertura
+**High** - Maior valor alcançado na data
+Low - Menor valor alcançado na data
+Close - Valor de fechamento da ação
+Adj Close - Fechamento ajustado, após distribuição de dividendos e outras operações
+Volume - Quantas ações foram negociadas (Tanto compras quanto vendas)
+A biblioteca seaborn é usada para visualização de dados em Python, especialmente gráficos estatísticos.
 
-A base de dados tem uma indexação por datas, facilitando bastante o processo de geração de gráficos, e possui as seguintes colunas:
+A biblioteca smt (Sensitivity Model Toolbox) é uma coleção de ferramentas de análise de sensibilidade e calibração de modelos.
 
+A biblioteca pmdarima instala a biblioteca pmdarima (AutoRegressive Integrated Moving Average), que é usada para modelagem e previsão de séries temporais em Python.
 
-
-*   Open - Preço de abertura
-*   High - Maior valor alcançado na data
-*   Low - Menor valor alcançado na data
-*   Close - Valor de fechamento da ação
-*   Adj Close - Fechamento ajustado, após distribuição de dividendos e outras operações
-*   Volume - Quantas ações foram negociadas (Tanto compras quanto vendas)
-
-
-OBS.: Os valores das ações já estão em BRL
+A biblioteca statsmodels é usada para análise estatística em Python, incluindo modelagem e previsão de séries temporais, regressão linear, análise de dados de painel e outros métodos estatísticos avançados.
