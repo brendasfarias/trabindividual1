@@ -29,9 +29,9 @@ Os dados foram importados com uma biblioteca que se conecta à API do Yahoo, cha
 **Volume**  - Quantas ações foram negociadas (Tanto compras quanto vendas)
 
 A biblioteca seaborn é usada para visualização de dados em Python, especialmente gráficos estatísticos.
-
 A biblioteca smt (Sensitivity Model Toolbox) é uma coleção de ferramentas de análise de sensibilidade e calibração de modelos.
-
 A biblioteca pmdarima instala a biblioteca pmdarima (AutoRegressive Integrated Moving Average), que é usada para modelagem e previsão de séries temporais em Python.
-
 A biblioteca statsmodels é usada para análise estatística em Python, incluindo modelagem e previsão de séries temporais, regressão linear, análise de dados de painel e outros métodos estatísticos avançados.
+
+A partir de séries temporais e o modelo SARIMAX, foram feitas as análise exploratórias e as previsões do preço das ações para cada uma das empre0sas escolhidas. 
+Conclui-se que o modelo é limitado devido a complexidade do mercado financeiro, e que a possibilidade de integrar uma quantidade maior de dados micro e macroeconômicos poderia ser um passo interessante.
